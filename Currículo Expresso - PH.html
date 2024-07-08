@@ -1,0 +1,138 @@
+<html>
+
+    <head>
+        <title>Currículo PH</title>
+        <meta charset="utf-8">
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Estilização da Página/estilização.css"/>
+    </head>
+
+    <body>
+        <div class="fundo"> <!--Div Principal-->
+          <br>
+
+          <div class="caixa"> <!--Caixa do Currículo-->
+
+            <img class="foto" src="Estilização da Página/Foto-PH.jpg">
+
+            <div class="título"> <!--Título-->
+                <br>
+                <h1>Currículo Expresso</h1>
+                <span class="sub"><h3>Pedro Henrique dos Santos</h3></span>
+                <br>
+            </div> <!--Título-->
+
+
+
+            <div> <!--Categorias-->
+                
+                  <ul class="nav nav-pills mb-3 nav-fill" id="tab" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="dados-tab" data-bs-toggle="pill" data-bs-target="#dados" type="button" role="tab" aria-controls="dados" aria-selected="true">Dados Pessoais</button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="endereço-tab" data-bs-toggle="pill" data-bs-target="#endereço" type="button" role="tab" aria-controls="endereço" aria-selected="false">Endereço Residencial</button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="experiência-tab" data-bs-toggle="pill" data-bs-target="#experiência" type="button" role="tab" aria-controls="experiência" aria-selected="false">Experiência Profissional</button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="preferências-tab" data-bs-toggle="pill" data-bs-target="#preferências" type="button" role="tab" aria-controls="preferências" aria-selected="false">Preferências</button>
+                      </li>
+                      
+                  </ul>
+
+                  <div class="tab-content" id="tabContent"> <!--Conteúdo das Categorias-->
+
+                    <div class="tab-pane fade show active" id="dados" role="tabpanel" aria-labelledby="dados-tab"> <!--Dados Pessoais-->
+
+                        <div class="caixaesq"> <!--Elementos esquerda-->
+                          <p> <span class="prev"><label>Nome: </label></span> Pedro Henrique dos Santos</p>
+                          <p> <span class="prev"><label>Contato: </label></span> <a class="hyper" target="_blank" href="tel:+55054991576905">+55 054 9 9157-6905</a> </p>
+                          <p> <span class="prev"><label>Email: </label></span> <a class="hyper" target="_blank" href="mailto:pedroh135792468@gmail.com">pedroh135792468@gmail.com</a> </p>
+                          <p> <span class="prev"><label>Documentos: </label></span> <a class="hyper" target="_blank" href="https://drive.google.com/drive/folders/1s2L8axBzSalweuY-NMSmvFCBJQC693oz?usp=sharing">Drive</a> </p>
+                        </div> <!--/Elementos esquerda-->
+
+                        <div class="caixadir"> <!--Elementos direita-->
+                          <p> <span class="prev"><label>Escolaridade:</label></span> </p>
+                          <ol type="I">
+                            <li>Ensino Fundamental - <span class="sub">Escola Municipal de Ensino Fundamental Santo Antonio</span></li>
+                            <li>Ensino Médio - <span class="sub">Colégio Tiradentes da Brigada Militar de Passo Fundo</span></li>
+                          </ol>
+
+                          <p> <span class="prev"><label>Competências:</label></span> </p>
+                          <ul>
+                            <li>Comunicação eficaz</li>
+                            <li>Pensamento crítico</li>
+                            <li>Resolução de problemas</li>
+                            <li>Capacidade de aprendizagem rápida</li>
+                            <li>Adaptabilidade</li>
+                            <li>Pensamento estratégico</li>
+                            <li>Resiliência</li>
+                          </ul>
+                        </div> <!--/Elementos direita-->
+
+                    </div> <!--/Dados Pessoais-->
+
+                    <div class="tab-pane fade" id="endereço" role="tabpanel" aria-labelledby="endereço-tab"> <!--Endereço Residencial-->
+                        
+                      <div class="caixaesq"> <!--Elementos esquerda-->
+                        <p> <span class="prev"><label>Rua: </label></span> Avenida Perimetral</p>
+                        <p> <span class="prev"><label>Número: </label></span> 719</p>
+                        <p> <span class="prev"><label>Bairro: </label></span> São Luiz Gonzaga</p>
+                        <p> <span class="prev"><label>Cidade: </label></span> Passo Fundo</p>
+                        <p> <span class="prev"><label>Estado: </label></span> Rio Grande do Sul</p>
+                        <p> <span class="prev"><label>País: </label></span> Brasil</p>
+                        
+                      </div> <!--/Elementos esquerda-->
+
+                      <div class="caixadir"> <!--Elementos direita-->
+                        <p> <span class="prev"><label>Cep: </label></span> 99054-080</p>
+                      </div> <!--/Elementos direita-->
+
+                    </div> <!--/Endereço Residencial-->
+
+                    <div class="tab-pane fade" id="experiência" role="tabpanel" aria-labelledby="experiência-tab"> <!--Experiência Profissional-->
+
+                      <div class="caixaesq"> <!--Elementos esquerda-->
+                        <p> <span class="prev"><label>Setor Azul - Magnet:</label></span> </p>
+                        <ol type="I">
+                          <li>01/03/2024 - Atual</li>
+                        </ol>
+                      </div> <!--/Elementos esquerda-->
+
+                    </div> <!--/Experiência Profissional-->
+
+                    <div class="tab-pane fade" id="preferências" role="tabpanel" aria-labelledby="preferências-tab"> <!--Preferências-->
+                        
+                      <div class="caixaesq"> <!--Elementos esquerda-->
+                        <ul>
+                          <li>Período Noturno</li>
+                          <li>Meio Período</li>
+                          <li>Salário por hora trabalhada</li>
+                          <li>Conta de Recebimento: Banrisul, Caixa ou Bancos Digitais</li>
+                        </ul>
+
+                    </div> <!--/Preferências-->
+
+                  </div> <!--/Conteúdo das Categorias-->
+
+            </div> <!--/Categorias-->
+
+          </div class="caixa"> <!--Caixa do Currículo-->
+
+        </div> <!--/Div Principal-->
+    </body>
+
+    <footer>
+
+    </footer>
+
+</html>
